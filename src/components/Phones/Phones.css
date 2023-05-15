@@ -1,0 +1,9 @@
+.phones-map {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    border: 2px dotted black;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 15px;
+}

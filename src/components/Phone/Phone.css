@@ -1,0 +1,23 @@
+.phone-details {
+    border: 2px solid goldenrod;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.buy-now-btn {
+    background-color: orange;
+    color: black;
+    width: 100%;
+    font-family: cursive;
+    transition: all 0.25s;
+    border: none;
+    border-radius: 30px;
+}
+
+.buy-now-btn:hover {
+    background-color: darkblue;
+    color: white;
+    box-shadow: 0 0.25em 0.25em 0.25em red;
+    transform: translateY(-0.25em);
+}

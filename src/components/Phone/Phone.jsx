@@ -9,7 +9,7 @@ const Phone = ({ phone }) => {
         <div className='phone-details'>
             <img src={image} alt="" />
             <h2>{name}</h2>
-            <h4>{price}</h4>
+            <h4>Price: ${price}</h4>
             <p>ID: {id}</p>
             <button className='buy-now-btn'>Buy Now</button>
         </div>
